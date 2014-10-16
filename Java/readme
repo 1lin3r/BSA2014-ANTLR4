@@ -1,0 +1,11 @@
+1) Generate recognizer's classes:
+> java -jar antlr-4.4-complete.jar JSON.g4 
+
+2) Compile sources:
+> javac -cp .;antlr-4.4-complete.jar JSON*.java
+
+3) Next command allows to check syntax tree built for test input (from t.json file)
+> java -cp .;antlr-4.4-complete.jar org.antlr.v4.runtime.misc.TestRig JSON json -gui t.json 
+
+4) Execute application to translate test JSON file into XML:
+> java -cp .;antlr-4.4-complete.jar JSON2XML t.json 
