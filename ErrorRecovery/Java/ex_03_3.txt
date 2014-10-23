@@ -1,0 +1,4 @@
+class T {{
+int x;
+y;;;
+}
