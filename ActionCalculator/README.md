@@ -21,9 +21,11 @@ How to run:
 ```
 
 4) Start entering expressions such as:
+```shell
 2+3
 a=5
 a*100
+```
 
 5) Press Ctrl+Z to exit
 
